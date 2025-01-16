@@ -1,5 +1,8 @@
 # ignore all photos (download from onedrive)
-/[Aa]ssets/Custom/Photos/*
+/[Aa]ssets/Custom/Photos/*.jpg
+/[Aa]ssets/Custom/Photos/*.mp4
+/[Aa]ssets/Custom/Photos/*.meta
+
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #

@@ -9,20 +9,77 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/WeeiaS.unity
+    path: Assets/Scenes/1Weeia.unity
     guid: 5999b6c404bec9648b474ab8c0bbc362
   - enabled: 1
-    path: Assets/Scenes/JuliasLabS.unity
-    guid: f770cb23b8e71144cb6c27821992b502
+    path: Assets/Scenes/2Julia_lab.unity
+    guid: 8ce76c4fc9aa5774aba00010d31643ae
   - enabled: 1
-    path: Assets/Scenes/Passive_1S.unity
-    guid: 4abc93236acd7044da604bcaa1593482
+    path: Assets/Scenes/2aPassive_end.unity
+    guid: eb7f0cf27ae5d614eb1b6af2bb81256c
   - enabled: 1
-    path: Assets/Scenes/Passive_2S.unity
-    guid: d9ff0f1d6b3f95e4a9f5b9b11367ceb9
+    path: Assets/Scenes/2aPassive_fl1.unity
+    guid: 82489eeae7594ad4aaf343ea99d30aaf
   - enabled: 1
-    path: Assets/Scenes/MechanicznyS.unity
-    guid: 304494c7acf9e614fb7c9d356b60493a
+    path: Assets/Scenes/2aPassive_fl2.unity
+    guid: 286a1c5cffd37f9478a6a5cd07875106
+  - enabled: 1
+    path: Assets/Scenes/3IFE.unity
+    guid: 9c91b3d95bb7a004b97d98362577a719
+  - enabled: 1
+    path: Assets/Scenes/3aIFE_off.unity
+    guid: c7caba75b297f674f81f589e0a70356e
+  - enabled: 1
+    path: Assets/Scenes/3bAlchemium.unity
+    guid: 41eaa42d7c879804b8478506840309ff
+  - enabled: 1
+    path: Assets/Scenes/3cBINOZ.unity
+    guid: 40f330660ec570a4794e319de9be0834
+  - enabled: 1
+    path: Assets/Scenes/4Mechanical_start.unity
+    guid: 8788ca443678bc14ba9589d5ec1ba667
+  - enabled: 1
+    path: Assets/Scenes/4Mechanical_interaction.unity
+    guid: 8b787737b64615447b4a7094dc5d16c9
+  - enabled: 1
+    path: Assets/Scenes/4Mechanical_end.unity
+    guid: cbf44611aee36f047a2d837417fd2bb6
+  - enabled: 1
+    path: Assets/Scenes/5aSportsBay_climb.unity
+    guid: 5a9db59ff102a8c4aaea748dd6089331
+  - enabled: 1
+    path: Assets/Scenes/5aSportsBay_swim.unity
+    guid: e4d700cd3db3d9c4694eb85b1212688f
+  - enabled: 1
+    path: Assets/Scenes/5aSportsBay_tennis.unity
+    guid: 1ffbb9e7280c37040aa2d27833c659ed
+  - enabled: 1
+    path: Assets/Scenes/5PlanB.unity
+    guid: d65e76a30d9f7c940b579f416aff25ec
+  - enabled: 1
+    path: Assets/Scenes/5bLibrary_1.unity
+    guid: 00a90e0ebc419694bbc0612d6a290aaa
+  - enabled: 1
+    path: Assets/Scenes/5bLibrary_2.unity
+    guid: cee0d81a16e320c45b94ae60107ea861
+  - enabled: 1
+    path: Assets/Scenes/5bLibrary_end.unity
+    guid: 88ad3c79fb2cfae46aa5e5a293a2ae57
+  - enabled: 1
+    path: Assets/Scenes/6aLODEX.unity
+    guid: 5ef481d0f0a222a4c878709eddbf9bbc
+  - enabled: 1
+    path: Assets/Scenes/6aPhysics.unity
+    guid: 88c9c48757919924891127a7087a4d27
+  - enabled: 1
+    path: Assets/Scenes/7DMCS_julia.unity
+    guid: bc66d141c37007f48979b984747fc529
+  - enabled: 1
+    path: Assets/Scenes/7DMCS_fight.unity
+    guid: e19a3346506c08642819190ab1cc75b4
+  - enabled: 1
+    path: Assets/Scenes/7DMCS_end.unity
+    guid: 72723af365a5de64b91028fe6b5aabbe
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 12e6a2709e88c414bb94d2575f768ff9, type: 2}
