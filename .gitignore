@@ -2,6 +2,8 @@
 /[Aa]ssets/Custom/Photos/*.jpg
 /[Aa]ssets/Custom/Photos/*.mp4
 /[Aa]ssets/Custom/Photos/*.meta
+/[Aa]ssets/Custom/Photos/Materials
+
 
 
 # This .gitignore file should be placed at the root of your Unity project directory
