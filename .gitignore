@@ -2,7 +2,7 @@
 /[Aa]ssets/Custom/Photos/*.jpg
 /[Aa]ssets/Custom/Photos/*.mp4
 /[Aa]ssets/Custom/Photos/*.meta
-/[Aa]ssets/Custom/Photos/Materials
+/[Aa]ssets/Custom/Photos/Materials/*
 
 
 
