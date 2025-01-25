@@ -1,13 +1,15 @@
 using UnityEngine;
 
-public class GazeNarrationController : MonoBehaviour
+public class GazeAndDelayNarration : MonoBehaviour
 {
     public AudioSource narrationAudio;
-    public float gazeDuration = 2f; // Time to trigger narration
-    public float doNotPlayBefore = 0f;
+    public float gazeDuration = 2f;
+    public float delayInSeconds = 1f;
     public bool singleUse = true;
+    public float doNotPlayBefore = 0f;
 
     private float gazeTimer = 0f;
+    private bool isPlaying = false;
     private bool done = false;
     private float elapsedTime = 0f;
 
@@ -31,9 +33,10 @@ public class GazeNarrationController : MonoBehaviour
             {
                 gazeTimer += Time.deltaTime;
 
-                if (gazeTimer >= gazeDuration && !narrationAudio.isPlaying)
+                if (gazeTimer >= gazeDuration && !isPlaying)
                 {
-                    narrationAudio.Play();
+                    isPlaying = true;
+                    Invoke("PlayNarration", delayInSeconds);
                     if (singleUse){
                         done = true;
                     }
@@ -41,12 +44,26 @@ public class GazeNarrationController : MonoBehaviour
             }
             else
             {
-                gazeTimer = 0f; // Reset timer if not gazing
+                ResetGaze();
             }
         }
         else
         {
-            gazeTimer = 0f; // Reset timer if no object is hit
+            ResetGaze();
         }
+    }
+
+    void PlayNarration()
+    {
+        if (narrationAudio != null)
+        {
+            narrationAudio.Play();
+        }
+    }
+
+    void ResetGaze()
+    {
+        gazeTimer = 0f;
+        isPlaying = false;
     }
 }
