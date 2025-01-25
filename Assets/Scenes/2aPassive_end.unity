@@ -338,16 +338,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 689181232}
-        m_TargetAssemblyTypeName: ButtonNarrator, Assembly-CSharp
-        m_MethodName: PlayNarration
-        m_Mode: 1
+      - m_Target: {fileID: 1592904302}
+        m_TargetAssemblyTypeName: PassiveResetter, Assembly-CSharp
+        m_MethodName: Reset
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: 3IFE
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &52417388
@@ -943,8 +943,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e022c983bf76b7141aa8096f0b3480a5, type: 3}
-  m_Resource: {fileID: 8300000, guid: e022c983bf76b7141aa8096f0b3480a5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: dbe9c6abc2cbedc4d8d6e2acd9ff26a4, type: 3}
+  m_Resource: {fileID: 8300000, guid: dbe9c6abc2cbedc4d8d6e2acd9ff26a4, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1312,7 +1312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1592904301}
-  - component: {fileID: 1592904300}
+  - component: {fileID: 1592904302}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -1320,20 +1320,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1592904300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592904299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b69007592a421547b5efeb24ec38c5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeImage: {fileID: 820773755}
-  fadeDuration: 1
 --- !u!4 &1592904301
 Transform:
   m_ObjectHideFlags: 0
@@ -1349,6 +1335,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1592904302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592904299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e560c156ff5374ca96a9e5ded985b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 820773755}
+  fadeDuration: 1
+  delayBeforeReset: 24
+  narrationAudio: {fileID: 689181233}
 --- !u!1 &1906307422
 GameObject:
   m_ObjectHideFlags: 0
