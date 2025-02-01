@@ -20,13 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2aPassive_fl1.unity
     guid: 82489eeae7594ad4aaf343ea99d30aaf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/2aPassive_fl2.unity
     guid: 286a1c5cffd37f9478a6a5cd07875106
   - enabled: 1
     path: Assets/Scenes/3IFE.unity
     guid: 9c91b3d95bb7a004b97d98362577a719
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/3aIFE_off.unity
     guid: c7caba75b297f674f81f589e0a70356e
   - enabled: 1
@@ -40,16 +40,16 @@ EditorBuildSettings:
     guid: 8788ca443678bc14ba9589d5ec1ba667
   - enabled: 1
     path: Assets/Scenes/4Mechanical_interaction.unity
-    guid: 8b787737b64615447b4a7094dc5d16c9
+    guid: aefc6308a417ef44ea043a124f829d59
   - enabled: 1
     path: Assets/Scenes/4Mechanical_end.unity
-    guid: cbf44611aee36f047a2d837417fd2bb6
+    guid: e66d4960a660fd94688f516e92f3b944
   - enabled: 1
     path: Assets/Scenes/5aSportsBay_climb.unity
     guid: 5a9db59ff102a8c4aaea748dd6089331
   - enabled: 1
     path: Assets/Scenes/5aSportsBay_swim.unity
-    guid: e4d700cd3db3d9c4694eb85b1212688f
+    guid: d55df94b596b9314fbcca8b5a4395fe6
   - enabled: 1
     path: Assets/Scenes/5aSportsBay_tennis.unity
     guid: 1ffbb9e7280c37040aa2d27833c659ed
@@ -73,13 +73,16 @@ EditorBuildSettings:
     guid: 88c9c48757919924891127a7087a4d27
   - enabled: 1
     path: Assets/Scenes/7DMCS_julia.unity
-    guid: bc66d141c37007f48979b984747fc529
+    guid: 5cfeadf8ec830754e99634153ad21b3c
   - enabled: 1
     path: Assets/Scenes/7DMCS_fight.unity
-    guid: e19a3346506c08642819190ab1cc75b4
+    guid: 0f71f8bb4ec9cd6458d96557156ef2b8
   - enabled: 1
     path: Assets/Scenes/7DMCS_end.unity
     guid: 72723af365a5de64b91028fe6b5aabbe
+  - enabled: 1
+    path: Assets/Scenes/7DMCS_bad_end.unity
+    guid: 1c79ab5635843874fb76ab716304df21
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 12e6a2709e88c414bb94d2575f768ff9, type: 2}
